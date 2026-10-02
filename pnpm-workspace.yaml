@@ -1,0 +1,6 @@
+# Skip native build scripts (same as the reference project).
+# `ignoredBuiltDependencies` is read by pnpm 9/10, `allowBuilds` by pnpm 11+.
+allowBuilds:
+  esbuild: true
+  sharp: false
+  unrs-resolver: false
